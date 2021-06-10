@@ -42,7 +42,7 @@ public class Product implements Serializable{
 	private String name;
 	@Column(name = "DESCRIPTION")
 	private String description;
-	@Column(name = "PRODUCTCODE")
+	@Column(name = "PRODUCT_CODE")
 	private String productCode;
 	@Column(name = "FAMILY")
 	private String family;
