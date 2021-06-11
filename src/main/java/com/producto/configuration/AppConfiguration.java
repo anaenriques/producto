@@ -11,8 +11,7 @@ import org.springframework.context.annotation.Primary;
 @Configuration
 public class AppConfiguration {
 	
-	@Primary
-	@Bean()
+	@Bean
 	public DataSource startConnection() {
 		
 		DataSourceBuilder<?> dataSourceBuilder = DataSourceBuilder.create();
